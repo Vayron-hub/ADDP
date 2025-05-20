@@ -30,6 +30,9 @@ namespace EjerciciosRazor.Pages
             }
             Array.Sort(nums);
 
+
+
+
         }
     }
 }
