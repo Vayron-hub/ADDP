@@ -1,0 +1,55 @@
+﻿@page
+@model EjerciciosRazor.Pages.ImcModel
+
+<div class="d-flex justify-content-center align-content-center">
+<div class="card">
+
+
+<h1 class="p-4">Calcula tu Indice de masa corporal</h1>
+<div class="card-body">
+    <form method="post">
+
+        <p>Tu peso (en kilos): <input type="number" min="1" asp-for="peso" /></p>
+        <p>Tu altura (en metros): <input type="number" min="1" step="any"  asp-for="altura" /></p>
+
+        <p class="pb-5"><input type="submit" value="Calcular"/></p>
+    </form>
+
+            @if (Model.imc != 0)
+            {
+                <p>IMC = @Model.imc.ToString("0.00")</p>
+
+                @if (Model.imc < 18)
+                {
+                    <p>Interpretación: Bajo peso</p>
+                }
+                else if (Model.imc >= 18 && Model.imc < 25)
+                {
+                    <p>Interpretación: Peso normal</p>
+                }
+                else if (Model.imc >= 25 && Model.imc < 27)
+                {
+                    <p>Interpretación: Sobrepeso</p>
+                }
+                else if(Model.imc >=27 && Model.imc <30)
+                {
+                    <p>Interpretación: Obesidad grado I</p>
+                }
+                else if(Model.imc >=30 && Model.imc < 40)
+                {
+                    <p>Interpretación: Obesidad grado II</p>
+                }
+                else if(Model.imc >= 40)
+                {
+                    <p>Interpretación: Obesidad grado III</p>
+                }
+            }
+            else
+            {
+                <p>Aquí verás tu IMC</p>
+            }
+
+
+</div>
+</div>
+</div>

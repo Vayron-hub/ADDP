@@ -1,0 +1,21 @@
+﻿@page
+@model EjerciciosRazor.Pages.ArrModel
+<div class="d-flex justify-content-center align-content-center">
+
+    <card>
+        <form method="post">
+            <input type="submit" value="Mostrar"/>
+        </form>
+
+        @if(Model.nums.Length != 0)
+        {
+            <ul>
+                @foreach (var n in Model.nums)
+                {
+                    <li>@n</li>
+                }
+            </ul>
+        }
+    </card>
+
+</div>

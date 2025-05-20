@@ -1,0 +1,49 @@
+﻿@page
+@model EjerciciosRazor.Pages.CodigoModel
+
+<div class="d-flex justify-content-center align-content-center">
+    <div class="card">
+
+
+        <h1 class="p-4">Codifica un mensaje</h1>
+        <div class="card-body">
+            <form method="post">
+
+                <p>Mensaje: <input type="text" step="any" asp-for="mensaje" /></p>
+                <p>Regla : <input type="number" min="1" max="10" asp-for="n" /></p>
+
+                <p class="pb-5">
+                    <button type="submit" name="accion" value="codificar">Codificar</button>
+                </p>
+
+            </form>
+            <div class="d-flex justify-content-center align-content-center">
+
+            @if (Model.codif != "")
+            {
+            
+                <p>@Model.codif</p>
+            }
+            else
+            {
+                 <p>Aquí verás tu mensaje</p>
+                    
+            }
+
+            </div>
+            <div class="p-4">
+                <h3>Decodificar un mensaje</h3>
+                <form method="post">
+
+                <p>Mensaje: <input type="text" step="any" asp-for="mensaje" /></p>
+                    <p>Regla : <input type="number" min="1" max="10" asp-for="n" /></p>
+
+                <p class="pt-3">
+
+                <button type="submit" name="accion" value="decodificar">Decodificar</button>
+                </p>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
