@@ -29,6 +29,8 @@ namespace EjerciciosRazor.Pages
                 nums[i] = randomInt;
             }
             Array.Sort(nums);
+
+
         }
     }
 }
