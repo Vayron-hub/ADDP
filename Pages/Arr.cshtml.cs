@@ -24,6 +24,7 @@ namespace EjerciciosRazor.Pages
             Random rnd = new Random();
 
             for (var i = 0; i < 20; i++)
+
             {
                 int randomInt = rnd.Next(1, 101);
                 nums[i] = randomInt;
