@@ -2,19 +2,33 @@
 @model EjerciciosRazor.Pages.ArrModel
 <div class="d-flex justify-content-center align-content-center">
 
-    <card>
+    <card class="p-5 m-3">
         <form method="post">
             <input type="submit" value="Mostrar"/>
         </form>
 
         @if(Model.nums.Length != 0)
         {
-            <ul>
+            <div class="d-flex">
                 @foreach (var n in Model.nums)
                 {
-                    <li>@n</li>
+                    <p class="p-2">@n</p>
                 }
-            </ul>
+            </div>
+
+            <div>
+                Moda: @string.Join(", ", Model.mod)
+            </div>
+
+            <div>
+                Sumatoria: @Model.sum
+            </div>
+            <div>
+                Promedio: @Model.prom
+            </div>
+            <div>
+                Mediana: @Model.media
+            </div>
         }
     </card>
 

@@ -7,11 +7,15 @@ namespace EjerciciosRazor.Pages
     {
         [BindProperty]
         public int[] nums { get; set; } = new int[20];
-
+        [BindProperty]
         public int sum { get; set; } = 0;
+        [BindProperty]
         public float prom { get; set; } = 0;
+        [BindProperty]
         public int[] mod { get; set; } = Array.Empty<int>();
-        public int media { get; set; } = 0;
+        [BindProperty]
+        public float media { get; set; } = 0;
+
         public void OnGet()
         {
         }
@@ -31,8 +35,26 @@ namespace EjerciciosRazor.Pages
             }
             Array.Sort(nums);
 
+            foreach(var i in nums)
+            {
+                sum += i;
+            }
 
+            prom = sum / nums.Length;
 
+            
+            media = (nums[9] + nums[10]) / 2.0f;
+
+            var freq = new Dictionary<int, int>();
+            foreach (var n in nums)
+            {
+                if (freq.ContainsKey(n))
+                    freq[n]++;
+                else
+                    freq[n] = 1;
+            }
+            int maxFreq = freq.Values.Max();
+            mod = freq.Where(x => x.Value == maxFreq).Select(x => x.Key).ToArray();
 
         }
     }

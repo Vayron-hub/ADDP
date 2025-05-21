@@ -91,3 +91,4 @@ C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\Ej
 C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\obj\Debug\net9.0\EjerciciosRazor.pdb
 C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\obj\Debug\net9.0\EjerciciosRazor.genruntimeconfig.cache
 C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\obj\Debug\net9.0\ref\EjerciciosRazor.dll
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\obj\Debug\net9.0\EjerciciosRazor.sourcelink.json

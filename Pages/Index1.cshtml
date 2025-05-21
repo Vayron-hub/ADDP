@@ -1,0 +1,29 @@
+﻿@page
+@model EjerciciosRazor.Pages.Index1Model
+@{
+    ViewData["Title"] = "Evaluar Binomios";
+}
+
+<h2>Evaluar expresiones</h2>
+
+<form method="post">
+    <label>a: <input type="number" step="any" name="a" /></label><br />
+    <label>b: <input type="number" step="any" name="b" /></label><br />
+    <label>x: <input type="number" step="any" name="x" /></label><br />
+    <label>y: <input type="number" step="any" name="y" /></label><br />
+    <label>n: <input type="number" name="n" /></label><br />
+    <button type="submit">Calcular</button>
+</form>
+
+@if (Model.Res != null)
+{
+    <h1>Resultad: @(Model.Res)</h1>
+
+    <h4>Desarrollo paso a paso:</h4>
+    <ul>
+        @foreach (var paso in Model.P)
+        {
+            <li>@paso</li>
+        }
+    </ul>
+}
