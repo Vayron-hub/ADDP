@@ -1,0 +1,6 @@
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\wwwroot\img\bajo.png
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\wwwroot\img\I.jpg
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\wwwroot\img\II.jpg
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\wwwroot\img\III.jpg
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\wwwroot\img\normal.webp
+C:\Users\vayro\OneDrive\Escritorio\8VO\9NO\Desarrollo_WEB_integral\desarrollo\EjerciciosRazor\EjerciciosRazor\wwwroot\img\sobre.webp

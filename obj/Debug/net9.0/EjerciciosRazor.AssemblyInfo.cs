@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EjerciciosRazor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f791ff9de65932367fd9c09606dd46cca74c354e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d75e44a6198a39c1b494df86b920a82468e99eec")]
 [assembly: System.Reflection.AssemblyProductAttribute("EjerciciosRazor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EjerciciosRazor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
